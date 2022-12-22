@@ -2,9 +2,9 @@ var travel = [
     ["Vusal","Hafiz","Rza"],
     ["Tofiq","Aysel","Fatime",
         [
-        'Tahire ve Aynur', true, "2+2", [
-            "Maraqlı"
-        ],
+        'Tahire ve Aynur', true, "2+2", 
+            [
+            "Maraqlı"],
         ],
         ["IATC","ADNSU"]
     ],
@@ -23,4 +23,4 @@ console.log("Menim adim "+travel[1][0]+"dir."+" Men "+travel[1][4][1]+" telebesi
 // Fatime     = i
 // Maraqlı    = q
 
-console.log(travel[1][4][0][2]+travel[1][0][0]+travel[0][1][2]+travel[1][2][3]+travel[1][3][3][0][5])
+console.log(travel[1][4][0][2]+travel[1][0][1]+travel[0][1][2]+travel[1][2][3]+travel[1][3][3][0][4])
